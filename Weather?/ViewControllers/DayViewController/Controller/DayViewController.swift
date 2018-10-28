@@ -10,7 +10,7 @@ import UIKit
 
 class DayViewController: UIViewController {
     
-    let dayView = DayView()
+    private let dayView = DayView()
     
     //Mark: View Life Cycle
     

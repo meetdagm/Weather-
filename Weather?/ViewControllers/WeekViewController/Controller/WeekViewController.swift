@@ -10,17 +10,11 @@ import UIKit
 
 class WeekViewController: UIViewController {
     
-    let weekView = WeekView()
+    private let weekView = WeekView()
     
     // MARK: -View Life Cycle
     override func loadView() {
         self.view = weekView
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
 }
